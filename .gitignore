@@ -1,0 +1,10 @@
+.npm
+*.log
+npm-debug.log*
+node_modules/
+
+ManifoldJS/
+
+*.cer
+*.p12
+*.mobileprovision

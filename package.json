@@ -1,0 +1,25 @@
+{
+  "name": "manifoldjs-presentation",
+  "version": "1.0.0",
+  "description": "A presentation about ManifoldJS",
+  "main": "server.js",
+  "author": {
+    "name": "Ville Rantala",
+    "email": "ville.rantala@iki.fi",
+    "web": "https://vjrantal.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vjrantal/manifoldjs-presentation"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "=4.13.4"
+  },
+  "devDependencies": {
+    "manifoldjs": "vjrantal/ManifoldJS#optional-offline",
+    "selenium-standalone": "=5.1.0",
+    "tape": "=4.5.1",
+    "wd": "=0.4.0"
+  }
+}

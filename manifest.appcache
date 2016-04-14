@@ -1,0 +1,31 @@
+CACHE MANIFEST
+# Started at 1461830548637
+
+CACHE:
+index.html
+presentation.md
+favicon.ico
+css/reveal.css
+css/theme/pikestreet.css
+lib/css/github.css
+lib/css/font-awesome.min.css
+lib/js/head.min.js
+js/reveal.js
+js/pikestreet.js
+css/print/paper.css
+plugin/markdown/marked.js
+plugin/markdown/markdown.js
+pictures/hostedwebapps.jpg
+pictures/manifold-overview.png
+pictures/offline-options.png
+plugin/zoom-js/zoom.js
+plugin/notes/notes.js
+lib/fonts/K88pR3goAWT7BTt32Z01mz8E0i7KZn-EPnyo3HZu7kw.woff
+lib/fonts/DXI1ORHCpsQm3Vp6mXoaTZ1r3JsPcQLi8jytr04NNhU.woff
+lib/fonts/fontawesome-webfont.woff?v=4.3.0
+
+NETWORK:
+*
+
+SETTINGS:
+prefer-online

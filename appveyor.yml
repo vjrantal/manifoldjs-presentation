@@ -1,0 +1,20 @@
+os: Visual Studio 2015
+branches:
+  only:
+    - staging
+environment:
+  GIT_USER:
+    secure: fVvebVkoWuPEneFBgKNawum5u4YWctNnfq78Lj28C6GTfIlIlOnMbzp+lOXpUyuy
+  GIT_PASSWORD:
+    secure: +YbRftz7ND6FDaogdaROyINPU5xYLMBJoJ/WGOvJoUU4UfJxbE82V7Iy6O0Jmaavl5X4b2Zqz86IqWtwzYAxWw==
+  GIT_TARGET:
+    secure: IK3cGuy1S0clsjDUy6CsaPiu3XKr5VuiWRQRFTNhHQ/RBIN2N7Yj3igxK1/AVETxxNXKz7sTmzxhNMV8CjjVatggXVXMxZYBES0yYTFtl/Mb0HpLNhF1X6zfHEvveqE5
+  TESTDROID_KEY:
+    secure: prow518gm3VdCiOG4U12vxq8QZgsomc1ZVqRUmYWHG2MnJjqOSzq2T2YjNvJtUWm
+  EXCLUDE_IOS: true
+  DESKTOP_BROWSER: chrome
+install:
+- ps: Install-Product node LTS
+build_script:
+- '"C:\Program Files\Git\bin\sh.exe" --login -c "./scripts/all.sh"'
+test: off
